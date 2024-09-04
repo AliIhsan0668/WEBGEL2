@@ -14,3 +14,23 @@ h1 {
 img {
     border:6px solid #e11414 ;
 }
+
+@keyframes color-change {
+    5% {
+      color: rgb(255, 0, 0);
+    }
+  
+    45% {
+      color: rgb(0, 255, 38);
+
+    }
+  
+    100% {
+      color: rgb(43, 0, 255);
+
+    }
+}
+
+h1:hover {
+    animation: color-change 1ms infinite;
+}
